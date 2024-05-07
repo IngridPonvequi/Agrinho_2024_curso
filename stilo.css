@@ -23,7 +23,6 @@ body {
 	font-size: 20px;
 	font-weight: 400;
 }
-
 /*Configurações de efeitos do mouse */
 a:link {
 	text-decoration: none;
@@ -35,10 +34,12 @@ a.cabecalho__botao:link {
 a:visited {
 	color: var(--branco-principal);
 }
+
 a:hover {
 	text-decoration: underline;
 	color: var(--azul-principal);
 }
+
 a:active {
 	text-decoration: none;
 }
@@ -178,6 +179,7 @@ a.cabecalho__botao {
 .secao4__imagem  img {
 	width: 100%;
 }
+
 .secao4__endereco {
 	text-align: center;
 }
@@ -236,6 +238,7 @@ a.cabecalho__botao {
 	color: var(--verde-principal);
 	margin-left: 1em;
 }
+
 .rodape__texto {
 	margin: 1em  0em  0em;
 	color: var(--verde-principal);
@@ -260,8 +263,8 @@ a.cabecalho__botao {
 	border-radius: 5%;
 }
 
-
 /* ########################## Responsivo para celulares e tablets ##############################*/
+
 /* -- 320px — 480px: dispositivos móveis CELULAR --*/
 @media (min-width: 320px) and (max-width: 480px) {
 	/* estilo cabeçalho */
@@ -275,11 +278,11 @@ a.cabecalho__botao {
 		font-size: 30px;
 		font-weight: 400;
 	}
+
 	.container {
 		flex-flow: column  nowrap;
 	}
-	
-	/* estilo seção 1*/
+		/* estilo seção 1*/
 	.secao1__descricao {
 		padding: 1em;
 		width: 90%;
@@ -360,6 +363,7 @@ a.cabecalho__botao {
 	.rodape__lista  li {
 		margin-bottom: 10px;
 	}
+
 }
 
 /* -- 481px — 768px: iPads, tablets -- */
@@ -367,6 +371,7 @@ a.cabecalho__botao {
 	.container {
 		flex-flow: column  nowrap;
 	}
+    
 	/* Cabeçalho */
 	.logo__principal {
 		width: 80%;
